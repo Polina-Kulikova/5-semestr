@@ -146,7 +146,7 @@ public class Main {
         System.out.println("Поворот на 90 по часовой");
         for (int i = 0; i < column; i++) {
             for (int j = 0; j < row; j++) {
-                arr2[i][j] = arr[j][i];
+                arr2[i][j] = arr[row - j - 1 ][i];
                 System.out.print(arr2[i][j] + " ");
             }
             System.out.println();
